@@ -51,4 +51,11 @@
 
 // ========================================================================
 
-
+// Task 9: setTimeout()
+const fetchData = () => {
+  console.log("Loading...");
+  setTimeout(() => {
+    console.log("Data Fetched Successfully");
+  }, 3000);
+};
+fetchData();
