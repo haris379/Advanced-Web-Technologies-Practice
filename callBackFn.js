@@ -61,3 +61,12 @@
 // fetchData();
 
 // ========================================================================
+
+// Task 10: Array Filtering
+// const ages = [12, 18, 25, 15, 30, 16, 40];
+// const adult = ages.filter((age) => {
+//   return age > 18;
+// });
+// console.log(adult);
+
+
