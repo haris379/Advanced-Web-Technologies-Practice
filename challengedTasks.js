@@ -108,13 +108,13 @@
 // ========================================================================
 
 // Task 18 – Custom Callback Filter
-
-// Create a function checkNumbers(numbers, callback).
-
-// Requirements:
-// 1. Accept an array of numbers.
-// 2. Pass each number to the callback.
-// 3. The callback should check whether the number is even.
-// 4. Return a new array containing only even numbers.
-// Expected output:
-// [2, 4, 6, 8, 10]
+// const checkNumbers = (numbers, callback) => {
+//   return callback(numbers);
+// };
+// const checkEven = (numbers) => {
+//   return numbers.filter((n) => {
+//     return n % 2 === 0;
+//   });
+// };
+// const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(checkNumbers(numbersArray, checkEven));
