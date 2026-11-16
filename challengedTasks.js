@@ -80,3 +80,18 @@
 // ========================================================================
 
 // Task 16 – Callback with setTimeout
+// const processOrder = (orderName, callback) => {
+//   console.log("Order recieved");
+//   setTimeout(() => {
+//     callback(orderName);
+//   }, 2000);
+// };
+// const getOrder = (name) => {
+//   console.log(`Processing Order : ${name}`);
+// };
+// processOrder("Pizza", getOrder);
+
+// ========================================================================
+
+// Task 17 – Find Maximum Number
+
