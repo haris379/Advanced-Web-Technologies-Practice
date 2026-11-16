@@ -94,4 +94,30 @@
 // ========================================================================
 
 // Task 17 – Find Maximum Number
+// const findMax = (numOne, numTwo, numThree) => {
+//   if (numOne > numTwo && numOne > numThree) {
+//     return numOne;
+//   } else if (numTwo > numOne && numTwo > numThree) {
+//     return numTwo;
+//   } else if (numThree > numOne && numThree > numTwo) {
+//     return numThree;
+//   } else {
+//     console.log("Invalid");
+//     return;
+//   }
+// };
+// console.log(findMax(10, 80, 40));
 
+// ========================================================================
+
+// Task 18 – Custom Callback Filter
+
+// Create a function checkNumbers(numbers, callback).
+
+// Requirements:
+// 1. Accept an array of numbers.
+// 2. Pass each number to the callback.
+// 3. The callback should check whether the number is even.
+// 4. Return a new array containing only even numbers.
+// Expected output:
+// [2, 4, 6, 8, 10]
