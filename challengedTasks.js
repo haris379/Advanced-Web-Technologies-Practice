@@ -68,3 +68,15 @@
 // ========================================================================
 
 // Task 15 – Array Operations
+// const numbers = [5, 10, 15, 20, 25, 30];
+// const greater = numbers.filter((n) => {
+//   return n > 15;
+// });
+// const newArray = greater.map((n) => {
+//   return n * 2;
+// });
+// console.log(newArray);
+
+// ========================================================================
+
+// Task 16 – Callback with setTimeout
