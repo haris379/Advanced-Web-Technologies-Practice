@@ -41,3 +41,30 @@
 //   console.log(name);
 // };
 // performTask("Working on JS", taskName);
+
+// ========================================================================
+
+// Task 14 – Calculator with Four Operations
+// const calculator = (a, b, callback) => {
+//   callback(a, b);
+// };
+// function addition(a, b) {
+//   console.log(`Addition : ${a + b}`);
+// }
+// function subtraction(a, b) {
+//   console.log(`Subtraction : ${a - b}`);
+// }
+// function multiplication(a, b) {
+//   console.log(`Multiplication : ${a * b}`);
+// }
+// function division(a, b) {
+//   console.log(`Division : ${a / b}`);
+// }
+// calculator(20, 10, addition);
+// calculator(20, 10, subtraction);
+// calculator(20, 10, multiplication);
+// calculator(20, 10, division);
+
+// ========================================================================
+
+// Task 15 – Array Operations
