@@ -8,30 +8,26 @@
 
 // Task 2: Addition Calculator
 // const sum = function (a, b) {
-//     let result = a + b;
-//     console.log("Sum : " + result);
+//   return a + b;
 // };
-// sum(10, 20);
+// console.log("Sum : ", sum(20, 10));
 
 // ========================================================================
 
 // Task 3: Even or Odd
 // const checkNumber = function (number) {
-//   if (number % 2 === 0) {
-//     console.log("Even");
-//   } else {
-//     console.log("Odd");
-//   }
+//   return number % 2 === 0 ? "Even" : "Odd";
 // };
-// checkNumber(10);
+// console.log(checkNumber(11));
 
 // ========================================================================
 
 // Task 4: Array Multiplication
 // const numbers = [2, 4, 6, 8, 10];
-// const square = numbers.forEach((number) => {
-//   console.log(number * 2);
+// const square = numbers.map((number) => {
+//   return number * 2;
 // });
+// console.log(square);
 
 // ========================================================================
 
