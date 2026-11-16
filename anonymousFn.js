@@ -1,7 +1,16 @@
 // Task 1: Greeting Function
 
-const greet = function () {
-  console.log("Welcome to advanced JavaScript");
+// const greet = function () {
+//   console.log("Welcome to advanced JavaScript");
+// };
+
+// greet();
+
+// Task 2: Addition Calculator
+
+const sum = function (a, b) {
+  let result = a + b;
+  console.log("Sum : " + result);
 };
 
-greet();
+sum(10, 20);
