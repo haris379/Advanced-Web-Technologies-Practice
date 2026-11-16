@@ -95,18 +95,15 @@
 
 // Task 17 – Find Maximum Number
 // const findMax = (numOne, numTwo, numThree) => {
-//   if (numOne > numTwo && numOne > numThree) {
+//   if (numOne >= numTwo && numOne >= numThree) {
 //     return numOne;
-//   } else if (numTwo > numOne && numTwo > numThree) {
+//   } else if (numTwo >= numOne && numTwo >= numThree) {
 //     return numTwo;
-//   } else if (numThree > numOne && numThree > numTwo) {
-//     return numThree;
 //   } else {
-//     console.log("Invalid");
-//     return;
+//     return numThree;
 //   }
 // };
-// console.log(findMax(10, 80, 40));
+// console.log(findMax(50, 50, 30));
 
 // ========================================================================
 
