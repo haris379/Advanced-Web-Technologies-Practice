@@ -28,3 +28,16 @@
 //   return (price * 10) / 100;
 // };
 // calculatePrice(2000, discountedPrice);
+
+// ========================================================================
+
+// Task 13: Mini Task Manager
+// const performTask = (taskName, callback) => {
+//   console.log("Starting Task...");
+//   callback(taskName);
+//   console.log("Task Completed...");
+// };
+// const taskName = (name) => {
+//   console.log(name);
+// };
+// performTask("Working on JS", taskName);
